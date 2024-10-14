@@ -1,0 +1,456 @@
+nav{
+    display: flex;
+     background-color: rgb(0, 0, 0);
+     color: antiquewhite;
+     transition-duration: 3s;
+     animation-name:function;
+     animation-duration: 3s;  
+     /* position: sticky;
+     top: 0; */
+     
+       
+   }
+   @keyframes function{
+       0%{
+           background-color: rgb(25, 0, 255);
+       }
+       50%{
+           background-color: rgb(226, 174, 43);
+           
+   
+       }
+       100%{
+           background-color: rgb(235, 22, 178);
+       }
+   }
+   *{
+       /* padding: 0; */
+       margin: 0%;
+       padding: 0%;
+
+   }
+   ul{
+       display: flex;
+       list-style-type: none;
+       letter-spacing: 0.2rem;
+       margin-left: 30%;
+       margin-top: 20px;
+      
+       
+       
+       
+   }
+   .drop a{
+    border-bottom: 2px solid rgb(227, 175, 106) ;
+    border-left: 1px solid;
+    border-top: 1px solid rgb(227, 175, 106);
+    border-right: 1px solid;
+    box-shadow: 5px 5px 5px blue;
+   }
+   a{
+       text-decoration: none;
+       margin-left: 30px;
+       padding-left: 20px;
+       color: antiquewhite;
+       /* border-bottom: 2px solid rgba(255, 255, 255, 0.663); */
+   
+   }
+
+   .button{
+      margin-left: 200px;
+   
+      
+   }
+   button:active{
+       color: rgb(21, 255, 0);
+       background-color: black;
+      
+       
+   }
+   h3{
+       padding-left: 10px;
+       /* scale: .05; */
+       rotate: 0deg;
+       transition: all 0.5s;
+       margin-top: 20px;
+   }
+   /* h3:hover{
+       scale: 0.5;
+       /* rotate: 360deg; */
+   } */
+   
+   a:active{
+       color: rgb(21, 255, 0);
+   }
+   a:hover{
+       background-color: rgba(0, 77, 186, 0.458);
+       transition: 0.5s;
+       border-radius: 5px;
+   
+   }
+   img{
+       padding-top: 10px;
+       border-radius: 20px;
+       
+   }
+   img{
+      float: right;
+      width: 30%;
+   }
+   
+   p{
+       position: relative;
+       /* right: %; */
+       width: 60%;
+       padding-top: 5%;
+       padding-left: 50px;
+       text-transform: uppercase;
+      
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   /* ///// */
+   /* From Uiverse.io by nikk7007 */ 
+   .button {
+    --color: #00A97F;
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+    margin-bottom: 15px;
+   }
+   
+   .button::before, .button::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+   }
+   
+   .button::before {
+    top: -1em;
+    left: -1em;
+   }
+   
+   .button::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+   }
+   
+   .button:hover::before, .button:hover::after {
+    height: 410px;
+    width: 410px;
+   }
+   
+   .button:hover {
+    color: rgb(10, 25, 30);
+   }
+   
+   .button:active {
+    filter: brightness(.8);
+   }
+   .button{
+       font-size: 10px;
+ 
+   
+   }
+
+.chan{
+    background-color: rgba(41, 30, 30, 0.509);
+    box-shadow: 5px 9px 9px brown;
+    padding: 20PX;
+   margin-left: 50px;
+    margin-top: 20px;
+    color: blanchedalmond;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+.action{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+.para{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+.u-o ul{
+    display: inline-block;
+    margin-right: 50px;
+    position: relative;
+    right: 300px;
+    padding: 20px 10px;
+
+    
+}
+.u-o li{
+    margin-top: 20px;
+    letter-spacing: 0.1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.u-o a{
+    color: #351236;
+    font-weight: 800;
+    border-bottom: none;
+
+
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.para-1{
+    animation-name: moving;
+    animation-duration: 2s;
+}
+.para-2{
+    animation-name: moving-2;
+    animation-duration: 2s;
+    margin-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-shadow: #04fbff  2px 2px 2px;
+}
+/* @keyframes moving-2 {
+    25%{
+        transform: translateX(70px);
+        color: red;
+    }
+    50%{
+        transform: translateX(20px);
+        color: yellow;
+    }
+} */
+@keyframes moving {
+    25%{
+        transform: translateX(10px);
+    }
+    50%{
+        transform: translateX(50px);
+    }
+}
+
+/* .photos{
+    display: inline-block;
+}
+.p-1{
+    position: absolute;
+    overflow: auto;
+    left: 430px;
+    width: 800px;
+    height: 310px;
+    border: 3px dashed blue;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+.p-2{
+    position: absolute;
+    overflow: auto;
+    left: 430px;
+    width: 800px;
+    height: 310px;
+    border: 3px dashed blue;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+
+.vijay img{
+    width: 300px;
+    height: 315px;
+    padding-right: 20px;
+    animation: apper linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+
+}
+@keyframes apper {
+    From{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+
+    }
+}
+.sethu img{
+    width: 300px;
+    height: 315px;
+    padding-right: 20px;
+
+}
+.jayam img{
+    width: 300px;
+    height: 315px;
+    padding-right: 20px;
+
+}
+.rajini img{ 
+    width: 300px;
+    height: 315px;
+    padding-right: 20px;
+
+}
+.sethu img{
+    width: 300px;
+    height: 315px;
+    padding-right: 20px;
+
+}
+.jai img{
+    width: 300px;
+    height: 315px;
+    padding-right: 20px;
+
+}
+.surya img{
+    width: 300px;
+    height: 315px;
+    padding-right: 20px;
+
+} */
+/* img{
+    float: left;
+    width: 10%;
+} */
+.jayam{
+    position: absolute;
+    width: 60%;
+    left: 10%;
+    top: 118%;
+    background-color: rgb(54, 23, 81);
+    color: beige;
+    float: right;
+    animation: apper linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+    box-shadow: 5px 5px 5px goldenrod;
+}
+img{
+    box-shadow: 10px 10px 100px 10px goldenrod;
+}
+h3{
+    text-shadow: #04ff92 5px 5px 5px;
+}
+.surya{
+    position: absolute;
+    width: 60%;
+    left: 10%;
+    top: 160%;
+    background-color: rgb(54, 23, 81);
+    color: beige;
+    float: right;
+    animation: apper linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+    box-shadow: 5px 5px 5px goldenrod;
+
+}
+.dhanush{
+        position: absolute;
+        width: 60%;
+        left: 10%;
+        top: 160%;
+        background-color: rgb(54, 23, 81);
+        color: beige;
+        float: right;
+        animation: apper linear;
+        animation-timeline: view();
+        animation-range: entry 0;
+        box-shadow: 5px 5px 5px goldenrod;
+}
+.sethu{
+    position: absolute;
+    width: 60%;
+    left: 10%;
+    top: 202%;
+    background-color: rgb(54, 23, 81);
+    color: beige;
+    float: right;
+    animation: apper linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+    box-shadow: 5px 5px 5px goldenrod;
+}
+.rajini{
+    position: absolute;
+    width: 60%;
+    left: 10%;
+    top: 245%;
+    background-color: rgb(54, 23, 81);
+    color: beige;
+    float: right;
+    animation: apper linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+    box-shadow: 5px 5px 5px goldenrod;
+}
+.jai{
+    position: absolute;
+    width: 60%;
+    left: 10%;
+    top: 288%;
+    background-color: rgb(54, 23, 81);
+    color: beige;
+    float: right;
+    animation: apper linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+    box-shadow: 5px 5px 5px goldenrod;
+}
+.vijay{
+    position: absolute;
+    width: 60%;
+    left: 10%;
+    top: 332%;
+    background-color: rgb(54, 23, 81);
+    color: beige;
+    float: right;
+    animation: apper linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+    box-shadow: 5px 5px 5px goldenrod;
+}
+@keyframes apper {
+    From{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+
+    }
+}
+
+
+.u-o a:hover{
+    cursor: pointer;
+    transition: all 1s;
+    margin-left: 20px;
+}
